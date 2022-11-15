@@ -31,7 +31,7 @@ CREATE TABLE Telefone (
 
 CREATE TABLE Telefone_Tipo (
 	idTelefone_Tipo INT AUTO_INCREMENT PRIMARY KEY,
-    Tipo VARCHAR(10)
+    Tipo VARCHAR(10) NOT NULL
 );
 
 CREATE TABLE Pessoa_Telefone (
